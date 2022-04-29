@@ -1,0 +1,66 @@
+#header-wrap.fixed-header {
+  background-color: #bf1e2e !important;
+}
+.beasiswa-card {
+  border-radius: 15px;
+}
+.beasiswa-card h3 {
+  font-weight: 600;
+}
+.card-1 {
+  background-color: #bf1e2e;
+}
+
+.card-2 {
+  background-color: #28afb0;
+}
+.card-3 {
+  background-color: #c89933;
+}
+
+.button-beasiswa {
+  text-align: start;
+}
+.button-pedoman {
+  margin-left: 12px;
+}
+@media only screen and (max-width: 992px) {
+  .button-beasiswa {
+    text-align: center;
+  }
+}
+.font-red {
+  color: #bf1e2e;
+}
+.background-red {
+  background-color: #bf1e2e;
+}
+.text-title {
+  display: -webkit-box;
+}
+.text-title:hover {
+  -webkit-line-clamp: normal;
+}
+.accordion-header,
+.accordion-body {
+  color: black;
+}
+.accordion-body {
+  background-color: whitesmoke;
+}
+
+.text-title {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.text-title:hover {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all ease-in-out 3s;
+}
